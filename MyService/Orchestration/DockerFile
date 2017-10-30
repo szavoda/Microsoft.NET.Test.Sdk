@@ -4,7 +4,6 @@ WORKDIR /source
 COPY MyService/Orchestration/. Orchestration/.
 
 WORKDIR /source/Orchestration
-COPY MyService/Orchestration/.nuget/NuGet.Config .
 
 RUN dotnet restore
 
